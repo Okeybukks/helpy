@@ -48,4 +48,6 @@ COPY docker/database.yml $HELPY_HOME/config/database.yml
 
 EXPOSE 3000
 
+RUN chmod +x /helpy/docker/run.sh
+
 CMD ["/bin/bash", "/helpy/docker/run.sh"]
