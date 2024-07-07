@@ -36,7 +36,7 @@ services:
 
 volumes:
   rails-assets:
-    driver: local
+    # driver: local
 
 networks:
   front:
