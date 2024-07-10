@@ -24,7 +24,7 @@ services:
     depends_on:
       - postgres
     ports: 
-      - "3000:3000"
+      - "3000:3001"
   postgres:
     image: postgres:9.4
     restart: always
