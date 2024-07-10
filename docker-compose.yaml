@@ -40,6 +40,6 @@ volumes:
 
 networks:
   front:
-    driver: bridge
+    # driver: bridge
   back:
-    driver: bridge
+    # driver: bridge
